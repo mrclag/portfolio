@@ -1,0 +1,84 @@
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.element {
+  height: 100vh;
+  background-color: #ededed;
+  font-size: 45px;
+  border-top: 1px solid #000;
+  padding-top: 10vh;
+  padding-left: 10px;
+  background: url('https://cdn.pixabay.com/photo/2017/07/13/17/49/square-background-2501276_1280.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active {
+  color: #fcc21b !important;
+}
+
+.navstyles {
+  font-weight: bold;
+  z-index: 999;
+  border: none;
+  font-size: 1.25em;
+  justify-content: center;
+  position: fixed;
+  background: rgba(51, 51, 51, 0);
+  display: flex;
+  left: 50%;
+  min-width: 100vw;
+  transform: translateX(-50%);
+  font-size: 1.5em;
+
+  transition: all 0.5s ease;
+  .navItem {
+    padding: 20px;
+    &:hover {
+      transform: translateY(2px);
+    }
+  }
+  a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: #fcc21b;
+      transition: all 0.5s ease;
+      text-shadow: 0 0 10px #d9a719;
+    }
+    &:hover .fa {
+      color: #d9a719;
+      text-shadow: 0 0 10px #d9a719;
+      transition: all 0.5s ease;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .navbarName {
+      display: none;
+    }
+    font-size: 2.5em;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}
