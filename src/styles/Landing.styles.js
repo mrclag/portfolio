@@ -1,29 +1,29 @@
 import styled from 'styled-components';
 
 export const LandingBackground = styled.div`
-  height: 110vh;
+  height: 100vh;
   /* background: url('./images/backgroundImage.jpg'); */
   background: linear-gradient(45deg, #333333 0%, #375c93 50%);
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-clip-path: polygon(
+  /* -webkit-clip-path: polygon(
     0% 0%,
     100% 0%,
-    100% 100vh,
-    60% 100vh,
+    100% 90vh,
+    60% 90vh,
     50% 100%,
-    40% 100vh,
-    0 100vh
+    40% 90vh,
+    0 90vh
   );
   clip-path: polygon(
     0% 0%,
     100% 0%,
-    100% 100vh,
-    60% 100vh,
+    100% 90vh,
+    60% 90vh,
     50% 100%,
-    40% 100vh,
-    0 100vh
-  );
+    40% 90vh,
+    0 90vh
+  ); */
 `;
 
 export const Wrapper = styled.div`

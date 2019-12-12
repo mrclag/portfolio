@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { Element, Events, animateScroll as scroll } from 'react-scroll';
 
 import Navbar from './Navbar';
-import Landing from './Landing';
-import About from './About';
+import Landing from './sections/Landing';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Blogs from './sections/Blogs';
 
 const Home = () => {
   useEffect(() => {
@@ -36,17 +38,23 @@ const Home = () => {
         <About />
       </Element>
 
-      <Element name="test3" className="element">
-        test 3
+      <Element name="test3">
+        <Projects />
       </Element>
 
-      <Element name="test4" className="element">
-        test 4
+      <Element name="test4">
+        <Blogs />
       </Element>
 
-      <Element name="test5" className="element">
-        test 5<button onClick={scrollToTop}>To the top!</button>
-      </Element>
+      <div
+        style={{
+          borderTop: '1px solid black',
+          display: 'flex',
+          justifyContent: 'center'
+        }}
+      >
+        <button onClick={() => scrollToTop()}>Return to Top</button>
+      </div>
     </div>
   );
 };

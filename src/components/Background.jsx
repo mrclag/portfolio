@@ -24,6 +24,10 @@ const animStar = keyframes`
 `
 
 const Stars = styled.div`
+  overflow: hidden;
+  height: 100%;
+  width: auto;
+  
   #stars {
     width: 1px;
     height: 1px;

@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonLink from './ButtonLink';
-import Background from './Background';
+import ButtonLink from '../ButtonLink';
+import Background from '../Background';
 
 import {
   Wrapper,
@@ -8,7 +8,7 @@ import {
   SocialLinks,
   NameTitle,
   LandingBackground
-} from '../styles/Landing.styles.js';
+} from '../../styles/Landing.styles.js';
 
 const Landing = () => {
   return (

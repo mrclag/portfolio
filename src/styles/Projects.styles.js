@@ -1,0 +1,24 @@
+import styled from 'styled-components';
+
+export const ProjectsWrapper = styled.div`
+  padding-top: 20vh;
+  min-height: 100vh;
+  text-align: center;
+  background: teal;
+  color: white;
+  @media screen and (max-width: 800px) {
+    padding-top: 12vh;
+  }
+`;
+
+export const CardWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;

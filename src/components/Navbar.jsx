@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import { NavStyles } from '../styles/Navbar.styles';
 
 const Navbar = () => {
   const [navCol, setNavCol] = useState('rgba(51, 51, 51, 0)');
@@ -23,7 +24,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="navstyles" style={{ backgroundColor: navCol }}>
+    <NavStyles style={{ backgroundColor: navCol }}>
       <div className="navItem">
         <Link
           activeClass="active"
@@ -44,7 +45,7 @@ const Navbar = () => {
           to="test2"
           spy={true}
           smooth={true}
-          offset={-150}
+          offset={0}
           duration={500}
         >
           <i className="fa fa-user-circle" aria-hidden="true"></i>
@@ -58,7 +59,7 @@ const Navbar = () => {
           to="test3"
           spy={true}
           smooth={true}
-          offset={1}
+          offset={0}
           duration={500}
         >
           <i className="fa fa-rocket" aria-hidden="true"></i>
@@ -72,14 +73,14 @@ const Navbar = () => {
           to="test4"
           spy={true}
           smooth={true}
-          offset={1}
+          offset={0}
           duration={500}
         >
           <i className="fa fa-pencil" aria-hidden="true"></i>
           <span className="navbarName"> Blog</span>
         </Link>
       </div>
-    </div>
+    </NavStyles>
   );
 };
 
