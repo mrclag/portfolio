@@ -73,7 +73,7 @@ const Navbar = () => {
           to="test4"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={1}
           duration={500}
         >
           <i className="fa fa-pencil" aria-hidden="true"></i>

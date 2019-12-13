@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsWrapper = styled.div`
-  padding-top: 20vh;
+  padding-top: 14vh;
   min-height: 100vh;
   text-align: center;
   background: teal;

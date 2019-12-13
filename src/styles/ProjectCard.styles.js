@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
+  position: relative;
   width: 350px;
   height: 400px;
   color: white;
@@ -20,7 +21,19 @@ export const Card = styled.div`
   }
 
   .card-body {
-    padding: 20px;
+    padding: 0 20px 0 20px;
+  }
+  p {
+    font-size: 1.1em;
+  }
+
+  }
+  .site-url {
+    margin-top: -5px;
+    padding-bottom: 10px;
+    color: #eee;
+    font-size: 1em;
+    font-style: italic;
   }
 
   img {
@@ -38,4 +51,11 @@ export const Card = styled.div`
   @media screen and (max-width: 800px) {
     margin: 10px 0;
   }
+`;
+
+export const ProjectButtons = styled.div`
+  position: absolute;
+  top: 52%;
+  right: 5px;
+  justify-content: center;
 `;

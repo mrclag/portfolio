@@ -5,5 +5,10 @@ export const BlogsWrapper = styled.div`
   padding-top: 20vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  @media screen and (max-width: 800px) {
+    justify-content: unset;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
 `;
