@@ -66,7 +66,7 @@ const Navbar = () => {
           <span className="navbarName"> Projects</span>
         </Link>
       </div>
-      <div className="navItem">
+      {/* <div className="navItem">
         <Link
           activeClass="active"
           className="test4"
@@ -79,7 +79,7 @@ const Navbar = () => {
           <i className="fa fa-pencil" aria-hidden="true"></i>
           <span className="navbarName"> Blog</span>
         </Link>
-      </div>
+      </div> */}
     </NavStyles>
   );
 };

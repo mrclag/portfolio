@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Element, Events, animateScroll as scroll } from 'react-scroll';
 
+import { Button } from '../styles/global-styles';
+
 import Navbar from './Navbar';
 import Landing from './sections/Landing';
 import About from './sections/About';
@@ -41,10 +43,10 @@ const Home = () => {
       <Element name="test3">
         <Projects />
       </Element>
-
+      {/* 
       <Element name="test4">
         <Blogs />
-      </Element>
+      </Element> */}
 
       <div
         style={{
@@ -53,7 +55,7 @@ const Home = () => {
           justifyContent: 'center'
         }}
       >
-        <button onClick={() => scrollToTop()}>Return to Top</button>
+        <Button onClick={() => scrollToTop()}>Return to Top</Button>
       </div>
     </div>
   );

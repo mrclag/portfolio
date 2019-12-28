@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, ProjectButtons } from '../styles/ProjectCard.styles';
 import ButtonLink from './ButtonLink';
 
-const PortfolioCard = ({ imageUrl, title, blurb, siteUrl }) => {
+const PortfolioCard = ({ imageUrl, title, blurb, siteUrl, githubUrl }) => {
   return (
     <>
       <Card>
@@ -13,8 +13,8 @@ const PortfolioCard = ({ imageUrl, title, blurb, siteUrl }) => {
           <p>{blurb}</p>
         </div>
         <ProjectButtons>
-          <ButtonLink icon="github" />
-          <ButtonLink icon="home" />
+          <ButtonLink icon="github" link={githubUrl} />
+          <ButtonLink icon="home" link={siteUrl} />
         </ProjectButtons>
       </Card>
     </>

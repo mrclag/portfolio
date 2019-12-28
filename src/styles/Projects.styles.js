@@ -4,7 +4,7 @@ export const ProjectsWrapper = styled.div`
   padding-top: 14vh;
   min-height: 100vh;
   text-align: center;
-  background: teal;
+  background: #93a3b1;
   color: white;
   @media screen and (max-width: 800px) {
     padding-top: 12vh;

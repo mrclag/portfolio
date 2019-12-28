@@ -4,7 +4,9 @@ import styled from 'styled-components';
 const BlogLink = ({ title, subtitle, date, selectedBlog }) => {
   return (
     <BlogListItem selectedBlog={selectedBlog}>
-      <div className="title">{title}</div>
+      <div className="title">
+        <strong>{title}</strong>
+      </div>
       <div className="subtitle">{subtitle}</div>
       <div className="date">{date}</div>
     </BlogListItem>
@@ -20,7 +22,7 @@ const BlogListItem = styled.div`
   cursor: pointer;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: ${props => (props.selectedBlog ? 'gold' : '#eee')}
+  background-color: ${props => (props.selectedBlog ? '#fcc21b' : '#eee')}
   padding: 10px;
 
   .title {

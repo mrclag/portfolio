@@ -1,31 +1,38 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard';
+
+import emojitetris from '../../images/EmojiTetris.png';
+import patternoverlay from '../../images/PatternOverlay.png';
+import relevocab from '../../images/ReleVocab.png';
+
 import { ProjectsWrapper, CardWrapper } from '../../styles/Projects.styles';
+import { SectionTitle } from '../../styles/global-styles';
 
 const Projects = () => {
   return (
     <ProjectsWrapper>
-      <h1>Projects</h1>
+      <SectionTitle>Projects</SectionTitle>
       <br />
       <CardWrapper>
         <ProjectCard
-          imageUrl="https://via.placeholder.com/150"
+          imageUrl={emojitetris}
           title="Emoji Tetris"
-          siteUrl="emojitetris.com"
-          githubUrl=""
+          siteUrl="https://emojitetris.com"
+          githubUrl="https://github.com/mrclag/Emoji-Tetris"
           blurb="One of my favorite classics, with a few twists. Recreated with React.js Hooks, and includes high score component using Firebase. Responsive / PWA optimized."
         />
         <ProjectCard
-          imageUrl="https://via.placeholder.com/150"
-          title="Image Overlay"
-          siteUrl="imageoverlay.com"
+          imageUrl={patternoverlay}
+          title="Pattern Overlay"
+          siteUrl="https://patternoverlay.com"
+          githubUrl="https://github.com/mrclag/freakydotpatterns"
           blurb="Based on youtube video 'Freaky Dot Patterns', this tool shows unexpected patterns that emerge when moving overlayed patterns. Build with React.js, mobile friendly."
         />
         <ProjectCard
-          imageUrl="https://via.placeholder.com/150"
-          title="Doter"
-          siteUrl="doterquest.com"
-          blurb="Social productivity app where users raise pets by buying food from task rewards"
+          imageUrl={relevocab}
+          title="ReleVocab"
+          siteUrl="https://relevocab.com"
+          blurb="Searh for and practice relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Wikipedia API."
         />
       </CardWrapper>
     </ProjectsWrapper>
