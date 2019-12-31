@@ -32,7 +32,8 @@ const Projects = () => {
           imageUrl={relevocab}
           title="ReleVocab"
           siteUrl="https://relevocab.com"
-          blurb="Searh for and practice relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Wikipedia API."
+          githubUrl="https://github.com/mrclag/relevocab"
+          blurb="Search and create flashcards for relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Wikipedia API."
         />
       </CardWrapper>
     </ProjectsWrapper>

@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const Button = styled.button`
   background-color: ${props => props.backgroundColor};
   color: ${props => props.color};
-  border-radius: 10%;
+  border-radius: 15px;
   height: 50px;
   width: auto;
   font-size: 14px;
+  padding: 10px;
 `;
 
 export const GlobalStyles = styled.div`

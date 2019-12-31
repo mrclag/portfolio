@@ -48,7 +48,7 @@ const Home = () => {
         <Blogs />
       </Element> */}
 
-      <div
+      {/* <div
         style={{
           borderTop: '1px solid black',
           display: 'flex',
@@ -56,7 +56,7 @@ const Home = () => {
         }}
       >
         <Button onClick={() => scrollToTop()}>Return to Top</Button>
-      </div>
+      </div> */}
     </div>
   );
 };

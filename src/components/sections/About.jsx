@@ -2,6 +2,7 @@ import React from 'react';
 import { AboutWrapper } from '../../styles/About.styles';
 import styled from 'styled-components';
 import profilePic from '../../images/icecream.png';
+import resume from '../../images/resume_matthew_clagett.pdf';
 
 import { Button, SectionTitle } from '../../styles/global-styles';
 
@@ -14,8 +15,10 @@ const About = () => {
           <img src={profilePic} alt="TEXT" />
           <br />
           <Button backgroundColor="#e7b31f" color="white">
-            <i className="fa fa-download" aria-hidden="true"></i> Download
-            Resume
+            <a href={resume}>
+              <i className="fa fa-download" aria-hidden="true"></i> Download
+              Resume
+            </a>
           </Button>
         </AboutMedia>
         <AboutText>
@@ -33,21 +36,19 @@ const About = () => {
             bit limited with the tools I used and the products I could create
             with them. So after graduation, I chose to expand my toolset, open
             more doors of opportunity, and better align myself with my long term
-            goals by becoming a software developer.abs In the process, I found I
-            can bring together fields I love like design, strategy, data, to
-            create meaningful products.
+            goals by becoming a software developer.
           </p>
           <h3>CURRENT</h3>
           <p>
-            I'm a full stack web developer, using tools including React.js,
-            Node.js, and Python. However, I am curious and quick to learn, so I
-            feel confident to join a team using an unfamiliar language.
+            I'm a stack web developer, using tools including React.js, Node.js,
+            and Python. However, I am curious and quick to learn, so I feel
+            confident to join a team using a unfamiliar technologies.
           </p>
           <p>
             I am looking for a role as a Software Engineer starting in Spring
-            2020. Be sure to check out my portfolio, resume, and blog page to
-            learn more about me, and please contact me if you are interested in
-            working together.
+            2020. Be sure to check out my projects, resume, and blog page
+            (coming soon) to learn more about me, and please contact me if you
+            are interested in working together.
           </p>
         </AboutText>
       </AboutContentWrapper>
@@ -76,6 +77,10 @@ const AboutMedia = styled.div`
   padding: 20px;
   margin-top: 20px;
   align-items: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
   img {
     width: 280px;
@@ -97,7 +102,7 @@ const AboutText = styled.div`
   width: 600px;
   background-color: white;
   padding: 20px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 0px 20px 0px;
   @media screen and (max-width: 900px) {
     width: 100%;
