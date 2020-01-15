@@ -40,15 +40,14 @@ const About = () => {
           </p>
           <h3>CURRENT</h3>
           <p>
-            I'm a stack web developer, using tools including React.js, Node.js,
-            and Python. However, I am curious and quick to learn, so I feel
-            confident to join a team using a unfamiliar technologies.
+            I'm now a stack web developer, using tools including React.js,
+            Node.js, and Python. I am quick and eager to learn new technologies,
+            expanding my skillset while building cool projects.
           </p>
           <p>
             I am looking for a role as a Software Engineer starting in Spring
-            2020. Be sure to check out my projects, resume, and blog page
-            (coming soon) to learn more about me, and please contact me if you
-            are interested in working together.
+            2020. Please download my resume, check out my projects, and contact
+            me if you are interested in working together.
           </p>
         </AboutText>
       </AboutContentWrapper>
@@ -71,7 +70,7 @@ const AboutContentWrapper = styled.div`
 `;
 
 const AboutMedia = styled.div`
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -83,8 +82,8 @@ const AboutMedia = styled.div`
   }
 
   img {
-    width: 280px;
-    height: 280px;
+    width: 320px;
+    height: 320px;
   }
 
   @media screen and (max-width: 900px) {
@@ -99,10 +98,10 @@ const AboutMedia = styled.div`
 `;
 
 const AboutText = styled.div`
-  width: 600px;
+  width: 700px;
   background-color: white;
   padding: 20px;
-  font-size: 0.9em;
+  font-size: 1em;
   margin: 0px 20px 0px;
   @media screen and (max-width: 900px) {
     width: 100%;

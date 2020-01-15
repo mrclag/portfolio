@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react';
-import { Element, Events, animateScroll as scroll } from 'react-scroll';
+import { Element, Events } from 'react-scroll';
+// import { animateScroll as scroll} from 'react-scroll'
 
-import { Button } from '../styles/global-styles';
+// import { Button } from '../styles/global-styles';
 
 import Navbar from './Navbar';
 import Landing from './sections/Landing';
 import About from './sections/About';
 import Projects from './sections/Projects';
-import Blogs from './sections/Blogs';
+// import Blogs from './sections/Blogs';
 
 const Home = () => {
   useEffect(() => {
@@ -24,9 +25,9 @@ const Home = () => {
     };
   });
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+  // const scrollToTop = () => {
+  //   scroll.scrollToTop();
+  // };
 
   return (
     <div>

@@ -8,6 +8,8 @@ export const Button = styled.button`
   width: auto;
   font-size: 14px;
   padding: 10px;
+  /* border: none; */
+  /* give same hover styling to this button as others have */
 `;
 
 export const GlobalStyles = styled.div`
