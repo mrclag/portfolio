@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AboutWrapper } from '../../styles/About.styles';
 import styled from 'styled-components';
 import profilePic from '../../images/icecream.png';
 import resume from '../../images/resume_matthew_clagett.pdf';
 
-import { Button, SectionTitle } from '../../styles/global-styles';
+import { SectionTitle } from '../../styles/global-styles';
 
 const About = () => {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <AboutWrapper>
       <SectionTitle>About</SectionTitle>
@@ -14,29 +16,36 @@ const About = () => {
         <AboutMedia>
           <img src={profilePic} alt="TEXT" />
           <br />
-          <Button backgroundColor="#e7b31f" color="white">
+          <ResumeButton
+            hovered={hovered}
+            onMouseOver={() => setHovered(true)}
+            onMouseOut={() => setHovered(false)}
+          >
             <a href={resume}>
-              <i className="fa fa-download" aria-hidden="true"></i> Download
-              Resume
+              <i className="fa fa-download fa-2x" aria-hidden="true"></i>
+              <div className="dl-text">
+                <p>Download</p>
+                <p>Resume</p>
+                <br />
+              </div>
             </a>
-          </Button>
+          </ResumeButton>
         </AboutMedia>
         <AboutText>
           <h3>BACKGROUND</h3>
           <p>
-            I graduated in May 2019 with a Bachelors in Business Administration
-            from the University of California, Berkeley. There, I was lucky to
-            study many subjects, but most enjoyed coursework in strategy, data
+            I just finished my undergraduate degree at UC Berkeley. As a
+            Business Administratio from UC Berkeley. There, I was lucky to study
+            many subjects, but most enjoyed coursework in strategy, data
             analytics, and design.
           </p>
           <p>
-            I started coding through classes and my internship at Cisco, using R
-            and Python almost daily for data analysis. Automating tasks and
-            getting insights from data was definitely interesting, but I felt a
-            bit limited with the tools I used and the products I could create
-            with them. So after graduation, I chose to expand my toolset, open
-            more doors of opportunity, and better align myself with my long term
-            goals by becoming a software developer.
+            I started programming daily through classes and an internship at
+            Cisco, using R and Python for data anaylsis. Since graduation, I
+            have been committed to starting my car I decided to dive deeper
+            after graduation. I knew that a starting my career as a software
+            developer would allow me to be more creative in work, and move me
+            closer to my long-term goals.
           </p>
           <h3>CURRENT</h3>
           <p>
@@ -76,10 +85,6 @@ const AboutMedia = styled.div`
   padding: 20px;
   margin-top: 20px;
   align-items: center;
-  a {
-    text-decoration: none;
-    color: white;
-  }
 
   img {
     width: 320px;
@@ -93,6 +98,45 @@ const AboutMedia = styled.div`
     img {
       width: 100%;
       height: auto;
+    }
+  }
+`;
+
+const ResumeButton = styled.div`
+  margin-top: 5px;
+  height: 60px;
+  width: 160px;
+  background-color: ${props => (props.hovered ? 'white' : '#eeb609')};
+  border-radius: 5px;
+  border: 1px solid #eeb609;
+  outline: none;
+  cursor: pointer;
+
+  a {
+    padding-left: 20px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    padding-top: 12px;
+    color: ${props => (props.hovered ? '#eeb609' : 'white')};
+
+    .fa-download {
+      padding-top: 4px;
+    }
+
+    .dl-text {
+      padding-left: 13px;
+      padding-right: 20px;
+      line-height: 80%;
+      font-size: 1.15em;
+
+      p {
+        margin-bottom: 5px;
+        text-align: center;
+        &:last-of-type {
+          font-size: 1.22em;
+        }
+      }
     }
   }
 `;

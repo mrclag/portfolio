@@ -15,6 +15,13 @@ const Projects = () => {
       <br />
       <CardWrapper>
         <ProjectCard
+          imageUrl={relevocab}
+          title="ReleVocab"
+          siteUrl="https://relevocab.com"
+          githubUrl="https://github.com/mrclag/relevocab"
+          blurb="Search and create flashcards for relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
+        />
+        <ProjectCard
           imageUrl={emojitetris}
           title="Emoji Tetris"
           siteUrl="https://emojitetris.com"
@@ -27,13 +34,6 @@ const Projects = () => {
           siteUrl="https://patternoverlay.com"
           githubUrl="https://github.com/mrclag/freakydotpatterns"
           blurb="Based on youtube video 'Freaky Dot Patterns', this tool shows unexpected patterns that emerge when moving overlayed patterns. Build with React.js, mobile friendly."
-        />
-        <ProjectCard
-          imageUrl={relevocab}
-          title="ReleVocab"
-          siteUrl="https://relevocab.com"
-          githubUrl="https://github.com/mrclag/relevocab"
-          blurb="Search and create flashcards for relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Wikipedia API."
         />
       </CardWrapper>
     </ProjectsWrapper>
