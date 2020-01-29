@@ -32,27 +32,21 @@ const About = () => {
           </ResumeButton>
         </AboutMedia>
         <AboutText>
-          <h3>BACKGROUND</h3>
+          <h3>WHAT I DO</h3>
           <p>
-            I just finished my undergraduate degree at UC Berkeley. As a
-            Business Administratio from UC Berkeley. There, I was lucky to study
-            many subjects, but most enjoyed coursework in strategy, data
-            analytics, and design.
-          </p>
-          <p>
-            I started programming daily through classes and an internship at
-            Cisco, using R and Python for data anaylsis. Since graduation, I
-            have been committed to starting my car I decided to dive deeper
-            after graduation. I knew that a starting my career as a software
-            developer would allow me to be more creative in work, and move me
-            closer to my long-term goals.
-          </p>
-          <h3>CURRENT</h3>
-          <p>
-            I'm now a stack web developer, using tools including React.js,
+            I'm now a full-stack web developer, using tools including React.js,
             Node.js, and Python. I am quick and eager to learn new technologies,
             expanding my skillset while building cool projects.
           </p>
+          <p>
+            I started programming daily through classes and an internship at
+            Cisco, using R and Python for data anaylsis. I found myself wanting
+            to learn and do more with code, so after graduation I decided to
+            start my career as a software engineer. I have fell in love with the
+            process of learning and building meaningful products.
+          </p>
+          <h3>CURRENT</h3>
+
           <p>
             I am looking for a role as a Software Engineer starting in Spring
             2020. Please download my resume, check out my projects, and contact

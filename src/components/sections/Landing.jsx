@@ -18,15 +18,16 @@ const Landing = () => {
         <Bio>
           <NameTitle>MATTHEW CLAGETT</NameTitle>
           <br />
-          Full stack web developer.
+          Software developer and May 2019 UC Berkeley graduate.
           <br />
           <br />
-          May 2019 UC Berkeley Business Administration graduate.
+          Strong in React.js development, data structures and algorithms, and
+          other computer science fundamentals. Big thirst for knowledge and
+          continuous improvement.
           <br />
           <br />
           <strong>
-            Looking for a full-time software development position starting in
-            early 2020.
+            Currently looking for a full-time role starting in early 2020.
           </strong>
         </Bio>
         <SocialLinks>
