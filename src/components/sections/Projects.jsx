@@ -3,7 +3,7 @@ import ProjectCard from '../ProjectCard';
 
 import emojitetris from '../../images/EmojiTetris.png';
 import patternoverlay from '../../images/PatternOverlay.png';
-import relevocab from '../../images/ReleVocab.png';
+import vocarta from '../../images/Vocarta.png';
 
 import { ProjectsWrapper, CardWrapper } from '../../styles/Projects.styles';
 import { SectionTitle } from '../../styles/global-styles';
@@ -15,10 +15,10 @@ const Projects = () => {
       <br />
       <CardWrapper>
         <ProjectCard
-          imageUrl={relevocab}
-          title="ReleVocab"
-          siteUrl="https://relevocab.com"
-          githubUrl="https://github.com/mrclag/relevocab"
+          imageUrl={vocarta}
+          title="Vocarta"
+          siteUrl="https://vocarta.com"
+          githubUrl="https://github.com/mrclag/vocarta"
           blurb="Search and create flashcards for relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
         />
         <ProjectCard

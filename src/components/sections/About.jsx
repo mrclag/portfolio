@@ -32,20 +32,18 @@ const About = () => {
           </ResumeButton>
         </AboutMedia>
         <AboutText>
-          <h3>WHAT I DO</h3>
           <p>
-            I'm now a full-stack web developer, using tools including React.js,
-            Node.js, and Python. I am quick and eager to learn new technologies,
-            expanding my skillset while building cool projects.
+            I'm a full-stack web developer, using tools including React.js,
+            Node.js, and Python. I recently graduated from UC Berkeley with a
+            B.S. in Business Administration, and a focus in data analytics.
           </p>
+
           <p>
             I started programming daily through classes and an internship at
-            Cisco, using R and Python for data anaylsis. I found myself wanting
-            to learn and do more with code, so after graduation I decided to
-            start my career as a software engineer. I have fell in love with the
-            process of learning and building meaningful products.
+            Cisco, using R and Python. I found an insistent desire to learn and
+            do more with code, and so dedicated my time after graduation
+            watching computer science lectures and building personal projects.
           </p>
-          <h3>CURRENT</h3>
 
           <p>
             I am looking for a role as a Software Engineer starting in Spring
@@ -139,10 +137,12 @@ const AboutText = styled.div`
   width: 700px;
   background-color: white;
   padding: 20px;
-  font-size: 1em;
-  margin: 0px 20px 0px;
+  font-size: 1.2em;
+
+  margin: 40px 20px 0px;
   @media screen and (max-width: 900px) {
     width: 100%;
+    font-size: 1em;
     margin: 0px 0px 40px;
   }
 `;
