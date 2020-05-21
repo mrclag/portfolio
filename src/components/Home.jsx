@@ -6,6 +6,7 @@ import { Element, Events } from 'react-scroll';
 
 import Navbar from './Navbar';
 import Landing from './sections/Landing';
+import SeekingJob from './sections/SeekingJob'
 import About from './sections/About';
 import Projects from './sections/Projects';
 // import Blogs from './sections/Blogs';
@@ -36,7 +37,9 @@ const Home = () => {
       <Element name="test1">
         <Landing />
       </Element>
-
+      <Element name="test15">
+        <SeekingJob />
+      </Element>
       <Element name="test2">
         <About />
       </Element>

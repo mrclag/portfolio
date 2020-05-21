@@ -41,6 +41,10 @@ export const Bio = styled.div`
   letter-spacing: 2px;
   text-align: center;
   font-size: 16px;
+  img {
+    height: 300px;
+    width: 300px;
+  }
   @media only screen and (max-width: 991px) {
     width: 80vw;
     margin-top: 15px;
@@ -57,5 +61,43 @@ export const SocialLinks = styled.div`
     padding: 30px auto;
     margin-top: 50px;
     justify-content: center;
+  }
+`;
+
+
+export const ResumeButton = styled.div`
+  margin: auto;
+  margin-top: 40px;
+  height: 50px;
+  width: 140px;
+  background-color: ${props => (props.hovered ? 'white' : '#eeb609')};
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+
+  i {
+    font-size: 1.5em;
+  }
+  a {
+    padding-left: 20px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    padding-top: 12px;
+    font-weight: bold;
+    color: ${props => (props.hovered ? '#eeb609' : '#161616')};
+
+    .fa-download {
+      padding-top: 4px;
+    }
+
+    .dl-text {
+      padding-top: 4px;
+      padding-left: 13px;
+      padding-right: 20px;
+      line-height: 100%;
+      font-size: 1.3em;
+      }
+    }
   }
 `;
