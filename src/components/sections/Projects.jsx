@@ -11,7 +11,7 @@ import { SectionTitle } from '../../styles/global-styles';
 const Projects = () => {
   return (
     <ProjectsWrapper>
-      <SectionTitle >Projects</SectionTitle>
+      <SectionTitle style={{ color: '#333333' }}>Projects</SectionTitle>
       <br />
       <CardWrapper>
         <ProjectCard

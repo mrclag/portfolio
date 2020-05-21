@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  background-color: ${props => props.backgroundColor};
-  color: ${props => props.color};
+  background-color: ${(props) => props.backgroundColor};
+  color: ${(props) => props.color};
   border-radius: 15px;
   height: 50px;
   width: auto;
@@ -20,5 +20,5 @@ export const SectionTitle = styled.div`
   font-size: 42px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 `;

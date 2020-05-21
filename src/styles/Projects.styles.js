@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const ProjectsWrapper = styled.div`
-  padding-top: 14vh;
+  padding-top: calc(14vh - 50px);
   min-height: 100vh;
   text-align: center;
-  background: #93a3b1;
+  background: #adbece;
   color: white;
   @media screen and (max-width: 800px) {
-    padding-top: 12vh;
+    padding-top: calc(12vh - 50px);
   }
 `;
 

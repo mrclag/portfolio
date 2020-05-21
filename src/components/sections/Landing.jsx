@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ButtonLink from '../ButtonLink';
 import Background from '../Background';
 import profilePic from '../../images/icecream.png';
@@ -8,13 +8,10 @@ import {
   Bio,
   SocialLinks,
   NameTitle,
-  LandingBackground,
-  ResumeButton
+  LandingBackground
 } from '../../styles/Landing.styles.js';
 
 const Landing = () => {
-  
-  const [hovered, setHovered] = useState(false);
   return (
     <LandingBackground>
       <Background />
@@ -55,19 +52,6 @@ const Landing = () => {
             icon="linkedin"
           />
         </SocialLinks>
-        {/* <ResumeButton
-            hovered={hovered}
-            onMouseOver={() => setHovered(true)}
-            onMouseOut={() => setHovered(false)}
-          >
-          <a>
-            <i className="fa fa-download" aria-hidden="true"></i>
-            <div className="dl-text">
-              <p>Resume</p>
-              <br />
-            </div>
-          </a>
-          </ResumeButton> */}
       </Wrapper>
     </LandingBackground>
   );

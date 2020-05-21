@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AboutWrapper } from '../../styles/About.styles';
 import styled from 'styled-components';
 
 import css from '../../images/icons/css.png';
 import html from '../../images/icons/html.png';
-import javascript from '../../images/icons/javascript.png';
+// import javascript from '../../images/icons/javascript.png';
 import react from '../../images/icons/react.png';
 import django from '../../images/icons/django.png';
 import excel from '../../images/icons/excel.png';
@@ -18,102 +18,102 @@ import heart from '../../images/icons/heart.png';
 import improvement from '../../images/icons/improvement.png';
 import helpinghand from '../../images/icons/helpinghand.png';
 import optimism from '../../images/icons/optimism.png';
-import resume from '../../images/resume_matthew_clagett.pdf';
-
+import berkeley from '../../images/icons/berkeley.png';
+// import resume from '../../images/resume_matthew_clagett.pdf';
 
 import { SectionTitle } from '../../styles/global-styles';
 
 const About = () => {
-  const [hovered, setHovered] = useState(false);
-
   return (
     <AboutWrapper>
       <SectionTitle>About</SectionTitle>
       <AboutContentWrapper>
-        {/* <AboutMedia>
-          <img src={profilePic} alt="TEXT" />
-        </AboutMedia> */}
         <AboutText>
-        <strong>Education</strong>
-        <p>
-          University of California, Berkeley 
-          <br/>
-          <div className='degree'>
-          B.S. in Business Administration
+          <div className="section">
+            <div className="section-title">Education</div>
+            <div className="education">
+              <img src={berkeley} alt="" />
+              <div className="edu-content">
+                <div className="university">
+                  University of California, Berkeley
+                </div>
+                <div className="degree">B.S. in Business Administration</div>
+                <div className="degree">
+                  Certificate in Technology Entrepreneurship
+                </div>
+                <div className="focus">
+                  Focus in analytics, design, and strategy
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='focus'>
-          Focus in analytics, design, and strategy
-          </div>
-        </p>
 
-        <strong>Top Technical Skills</strong>
-        <p>
-        <div className='skills'>
-          <div>
-            <img src={react} alt=""/>
-            <div>React.js</div>
+          <div className="section skills">
+            <div className="section-title">Top Technical Skills</div>
+            <div className="top-skills">
+              <div>
+                <img src={react} alt="" />
+                <div>React.js</div>
+              </div>
+              <div>
+                <img src={node} alt="" />
+                <div>Node.js</div>
+              </div>
+              <div>
+                <img src={redux} alt="" />
+                <div>Redux</div>
+              </div>
+              <div>
+                <img src={python} alt="" />
+                <div>Python</div>
+              </div>
+              <div>
+                <img src={django} alt="" />
+                <div>Django</div>
+              </div>
+              <div>
+                <img src={html} alt="" />
+                <div>HTML</div>
+              </div>
+              <div>
+                <img src={css} alt="" />
+                <div>CSS</div>
+              </div>
+              <div>
+                <img src={postgres} alt="" />
+                <div>PostgreSQL</div>
+              </div>
+              <div>
+                <img src={rprog} alt="" />
+                <div>R</div>
+              </div>
+              <div>
+                <img src={excel} alt="" />
+                <div>Excel</div>
+              </div>
+              <div>
+                <img src={figma} alt="" />
+                <div>Figma</div>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={node} alt=""/>
-            <div>Node.js</div>
-          </div>
-          <div>
-            <img src={redux} alt=""/>
-            <div>Redux</div>
-          </div>
-          <div>
-            <img src={python} alt=""/>
-            <div>Python</div>
-          </div>
-          <div>
-            <img src={django} alt=""/>
-            <div>Django</div>
-          </div>
-          <div>
-            <img src={html} alt=""/>
-            <div>HTML</div>
-          </div>
-          <div>
-            <img src={css} alt=""/>
-            <div>CSS</div>
-          </div>
-          <div>
-            <img src={postgres} alt=""/>
-            <div>PostgreSQL</div>
-          </div>
-          <div>
-            <img src={rprog} alt=""/>
-            <div>R</div>
-          </div>
-          <div>
-            <img src={excel} alt=""/>
-            <div>Excel</div>
-          </div>
-          <div>
-            <img src={figma} alt=""/>
-            <div>Figma</div>
-          </div>
-        </div>
-        </p>
 
-        <div className="secton values">
-          <strong>My Values</strong>
-          <br/>
-          <img src={heart} alt=""/>
-          Health and Sustainability
-          <br/>
-          <img src={helpinghand} alt=""/>
-          Serving and Adding Value to Others
-          <br/>
-          <img src={improvement} alt=""/>
-          Continuous Improvement
-          <br/>
-          <img src={optimism} alt=""/>
-          Practical Optimism
-          <br/>
-        </div>
+          <div className="section values">
+            <div className="section-title">My Values</div>
+            <img src={heart} alt="" />
+            Health and Sustainability
+            <br />
+            <img src={helpinghand} alt="" />
+            Serving and Adding Value to Others
+            <br />
+            <img src={improvement} alt="" />
+            Continuous Improvement
+            <br />
+            <img src={optimism} alt="" />
+            Practical Optimism
+            <br />
+          </div>
 
-        
           {/* <p>
             I'm a full-stack web developer, using tools including React.js,
             Node.js, and Python. I recently graduated from UC Berkeley with a
@@ -149,18 +149,42 @@ const AboutContentWrapper = styled.div`
     flex-direction: column;
     height: 100%;
   }
-  strong {
-    font-size: 24px;
-  }
-  .degree {
-    font-style: italic
-  }
-  .focus {
-    font-style: italic
-    font-size: 14px;
+  .section {
+    margin-bottom: 40px;
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
   }
 
-  .skills {
+  .education {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .edu-content {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: 0px;
+    }
+    img {
+      height: 50px;
+      width: 50px;
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+    .degree {
+      font-style: italic
+      font-size: 14px;
+    }
+    .focus {
+      font-style: italic
+      font-size: 14px;
+    }
+  }
+
+  .top-skills {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -193,71 +217,8 @@ const AboutContentWrapper = styled.div`
   }
 `;
 
-const AboutMedia = styled.div`
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin-top: 20px;
-  align-items: center;
-
-  img {
-    width: 320px;
-    height: 320px;
-  }
-
-  @media screen and (max-width: 900px) {
-    height: 100%;
-    margin: 0px auto;
-    width: 100%;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-`;
-
-const ResumeButton = styled.div`
-  margin-top: 5px;
-  height: 60px;
-  width: 160px;
-  background-color: ${props => (props.hovered ? 'white' : '#eeb609')};
-  border-radius: 5px;
-  border: 1px solid #eeb609;
-  outline: none;
-  cursor: pointer;
-
-  a {
-    padding-left: 20px;
-    display: flex;
-    text-decoration: none;
-    flex-direction: row;
-    padding-top: 12px;
-    color: ${props => (props.hovered ? '#eeb609' : 'white')};
-
-    .fa-download {
-      padding-top: 4px;
-    }
-
-    .dl-text {
-      padding-left: 13px;
-      padding-right: 20px;
-      line-height: 80%;
-      font-size: 1.15em;
-
-      p {
-        margin-bottom: 5px;
-        text-align: center;
-        &:last-of-type {
-          font-size: 1.22em;
-        }
-      }
-    }
-  }
-`;
-
 const AboutText = styled.div`
-  width: 600px;
+  width: 450px;
   background-color: white;
   padding: 20px;
   text-align: center;
@@ -266,7 +227,7 @@ const AboutText = styled.div`
     margin-bottom: 15px;
   }
 
-  margin: 20px 20px 0px;
+  margin: 0px 20px 0px;
   @media screen and (max-width: 900px) {
     width: 100%;
     font-size: 1em;
