@@ -7,7 +7,7 @@ const SeekingJob = () => {
   return (
     <SeekingJobStyles>
       <div className="seeking">
-        I am currently seeking a role as a software developer.
+        I am currently seeking a full-time position as a software engineer.
       </div>
       <div className="seeking text">
         Please download my resume and contact me if you would like to work
