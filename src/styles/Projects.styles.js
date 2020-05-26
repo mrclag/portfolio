@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const ProjectsWrapper = styled.div`
-  padding-top: calc(14vh - 50px);
-  min-height: 100vh;
+  padding-top: calc(18vh - 50px);
+  min-height: 95vh;
   text-align: center;
   background: #adbece;
   color: white;

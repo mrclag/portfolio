@@ -19,14 +19,14 @@ const Projects = () => {
           title="Vocarta"
           siteUrl="https://vocarta.com"
           githubUrl="https://github.com/mrclag/vocarta"
-          blurb="Search and create flashcards for relevant vocabulary in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
+          blurb="Search and create flashcards for relevant vocabulary and songs in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
         />
         <ProjectCard
           imageUrl={emojitetris}
-          title="Emoji Tetris"
-          siteUrl="https://emojitetris.com"
+          title="Emojimino"
+          siteUrl="https://emojimino.com"
           githubUrl="https://github.com/mrclag/Emoji-Tetris"
-          blurb="One of my favorite classics, with a few twists. Recreated with React.js Hooks, and includes high score component using Firebase. Responsive / PWA optimized."
+          blurb="Recreation of a classic block puzzle game, with a few twists. Build with React.js Hooks, and includes high score component using Firebase. Responsive / PWA optimized."
         />
         <ProjectCard
           imageUrl={patternoverlay}

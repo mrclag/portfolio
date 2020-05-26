@@ -6,19 +6,15 @@ import { Element, Events } from 'react-scroll';
 
 import Navbar from './Navbar';
 import Landing from './sections/Landing';
-import SeekingJob from './sections/SeekingJob'
+import SeekingJob from './sections/SeekingJob';
 import About from './sections/About';
 import Projects from './sections/Projects';
 // import Blogs from './sections/Blogs';
 
 const Home = () => {
   useEffect(() => {
-    Events.scrollEvent.register('begin', function() {
-      console.log('begin', arguments);
-    });
-    Events.scrollEvent.register('end', function() {
-      console.log('end', arguments);
-    });
+    Events.scrollEvent.register('begin', function () {});
+    Events.scrollEvent.register('end', function () {});
 
     return () => {
       Events.scrollEvent.remove('begin');

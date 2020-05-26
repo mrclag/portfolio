@@ -9,7 +9,6 @@ import react from '../../images/icons/react.png';
 import django from '../../images/icons/django.png';
 import excel from '../../images/icons/excel.png';
 import figma from '../../images/icons/figma.png';
-import postgres from '../../images/icons/postgres.png';
 import node from '../../images/icons/node-js.png';
 import redux from '../../images/icons/redux.png';
 import python from '../../images/icons/python.png';
@@ -19,7 +18,6 @@ import improvement from '../../images/icons/improvement.png';
 import helpinghand from '../../images/icons/helpinghand.png';
 import optimism from '../../images/icons/optimism.png';
 import berkeley from '../../images/icons/berkeley.png';
-// import resume from '../../images/resume_matthew_clagett.pdf';
 
 import { SectionTitle } from '../../styles/global-styles';
 
@@ -78,10 +76,6 @@ const About = () => {
               <div>
                 <img src={css} alt="" />
                 <div>CSS</div>
-              </div>
-              <div>
-                <img src={postgres} alt="" />
-                <div>PostgreSQL</div>
               </div>
               <div>
                 <img src={rprog} alt="" />
@@ -155,6 +149,7 @@ const AboutContentWrapper = styled.div`
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 10px;
+      font-style: underline;
     }
   }
 
@@ -162,6 +157,10 @@ const AboutContentWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    .university {
+      color: #354b6c;
+      font-weight: bold;
+    }
     .edu-content {
       display: flex;
       flex-direction: column;
@@ -175,7 +174,7 @@ const AboutContentWrapper = styled.div`
       margin-right: 10px;
     }
     .degree {
-      font-style: italic
+      font-style: unset;
       font-size: 14px;
     }
     .focus {
