@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.76cceaea.chunk.css",
-    "main.js": "/static/js/main.89f3815d.chunk.js",
-    "main.js.map": "/static/js/main.89f3815d.chunk.js.map",
+    "main.js": "/static/js/main.80b3bd4c.chunk.js",
+    "main.js.map": "/static/js/main.80b3bd4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d6051940.js",
     "runtime-main.js.map": "/static/js/runtime-main.d6051940.js.map",
-    "static/js/2.65542ceb.chunk.js": "/static/js/2.65542ceb.chunk.js",
-    "static/js/2.65542ceb.chunk.js.map": "/static/js/2.65542ceb.chunk.js.map",
+    "static/js/2.befdc787.chunk.js": "/static/js/2.befdc787.chunk.js",
+    "static/js/2.befdc787.chunk.js.map": "/static/js/2.befdc787.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0ee1c956563bedc711a4036bbe6bc3cf.js": "/precache-manifest.0ee1c956563bedc711a4036bbe6bc3cf.js",
+    "precache-manifest.e66c42645b6c3481506cd2cbd1c52252.js": "/precache-manifest.e66c42645b6c3481506cd2cbd1c52252.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.76cceaea.chunk.css.map": "/static/css/main.76cceaea.chunk.css.map",
-    "static/js/2.65542ceb.chunk.js.LICENSE": "/static/js/2.65542ceb.chunk.js.LICENSE",
+    "static/js/2.befdc787.chunk.js.LICENSE": "/static/js/2.befdc787.chunk.js.LICENSE",
     "static/media/EmojiTetris.png": "/static/media/EmojiTetris.e9c9c9e8.png",
     "static/media/PatternOverlay.png": "/static/media/PatternOverlay.56ccea28.png",
     "static/media/R.png": "/static/media/R.03720c4b.png",
@@ -19,15 +19,14 @@
     "static/media/berkeley.png": "/static/media/berkeley.1dcf6b68.png",
     "static/media/css.png": "/static/media/css.b3f09307.png",
     "static/media/icecream.png": "/static/media/icecream.3d228c0c.png",
-    "static/media/postgres.png": "/static/media/postgres.be189db2.png",
     "static/media/react.png": "/static/media/react.29d0f9c2.png",
     "static/media/redux.png": "/static/media/redux.96dff9b9.png",
     "static/media/resume_matthew_clagett.pdf": "/static/media/resume_matthew_clagett.e0284703.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.d6051940.js",
-    "static/js/2.65542ceb.chunk.js",
+    "static/js/2.befdc787.chunk.js",
     "static/css/main.76cceaea.chunk.css",
-    "static/js/main.89f3815d.chunk.js"
+    "static/js/main.80b3bd4c.chunk.js"
   ]
 }
