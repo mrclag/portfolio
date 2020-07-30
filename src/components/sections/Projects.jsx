@@ -4,6 +4,7 @@ import ProjectCard from '../ProjectCard';
 import emojitetris from '../../images/EmojiTetris.png';
 import patternoverlay from '../../images/PatternOverlay.png';
 import vocarta from '../../images/Vocarta.png';
+import shelfspot from '../../images/Shelfspot.png';
 
 import { ProjectsWrapper, CardWrapper } from '../../styles/Projects.styles';
 import { SectionTitle } from '../../styles/global-styles';
@@ -14,6 +15,13 @@ const Projects = () => {
       <SectionTitle style={{ color: '#333333' }}>Projects</SectionTitle>
       <br />
       <CardWrapper>
+        <ProjectCard
+          imageUrl={shelfspot}
+          title="ShelfSpot"
+          siteUrl="https://shelfspot.herokuapp.com"
+          githubUrl="https://github.com/mrclag/vocarta"
+          blurb="Digital Bookcase. Organize, summarize, and share your books. Built using React.js, Redux, Node.js, Google Books API, JWT."
+        />
         <ProjectCard
           imageUrl={vocarta}
           title="Vocarta"

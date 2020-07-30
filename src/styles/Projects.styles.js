@@ -16,9 +16,12 @@ export const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   text-align: left;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 70vw;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    align-items: center;
+    max-width: unset;
   }
 `;

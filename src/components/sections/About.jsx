@@ -13,6 +13,7 @@ import node from '../../images/icons/node-js.png';
 import redux from '../../images/icons/redux.png';
 import python from '../../images/icons/python.png';
 import rprog from '../../images/icons/R.png';
+import mongodb from '../../images/icons/mongodb_logo.png';
 import heart from '../../images/icons/heart.png';
 import improvement from '../../images/icons/improvement.png';
 import helpinghand from '../../images/icons/helpinghand.png';
@@ -68,6 +69,10 @@ const About = () => {
               <div>
                 <img src={django} alt="" />
                 <div>Django</div>
+              </div>
+              <div>
+                <img src={mongodb} alt="" />
+                <div>MongoDB</div>
               </div>
               <div>
                 <img src={html} alt="" />
