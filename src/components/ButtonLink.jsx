@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ButtonLink = ({ link, icon }) => {
   return (
     <Wrapper>
-      <a href={link}>
+      <a href={link} target="_blank" rel="noreferrer noopener">
         <i className={`fa fa-${icon} fa-2x`} aria-hidden="true"></i>
       </a>
     </Wrapper>

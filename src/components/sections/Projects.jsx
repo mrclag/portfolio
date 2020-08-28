@@ -5,6 +5,7 @@ import emojitetris from '../../images/EmojiTetris.png';
 import patternoverlay from '../../images/PatternOverlay.png';
 import vocarta from '../../images/Vocarta.png';
 import shelfspot from '../../images/Shelfspot.png';
+import sproulclub from '../../images/sproulclub.png';
 
 import { ProjectsWrapper, CardWrapper } from '../../styles/Projects.styles';
 import { SectionTitle } from '../../styles/global-styles';
@@ -16,6 +17,13 @@ const Projects = () => {
       <br />
       <CardWrapper>
         <ProjectCard
+          imageUrl={sproulclub}
+          title="sproul.club"
+          siteUrl="https://sproul.club"
+          githubUrl="https://github.com/mrclag/vocarta"
+          blurb="Catalog for UC Berkeley student organizations, used by over 500 clubs. Built with Flask, React.js, Redux.js."
+        />
+        <ProjectCard
           imageUrl={shelfspot}
           title="ShelfSpot"
           siteUrl="https://shelfspot.herokuapp.com"
@@ -26,7 +34,7 @@ const Projects = () => {
           imageUrl={vocarta}
           title="Vocarta"
           siteUrl="https://vocarta.com"
-          githubUrl="https://github.com/mrclag/vocarta"
+          githubUrl=""
           blurb="Search and create flashcards for relevant vocabulary and songs in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
         />
         <ProjectCard
