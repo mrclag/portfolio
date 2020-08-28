@@ -1,32 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.76cceaea.chunk.css",
-    "main.js": "/static/js/main.80b3bd4c.chunk.js",
-    "main.js.map": "/static/js/main.80b3bd4c.chunk.js.map",
+    "main.js": "/static/js/main.da9b1281.chunk.js",
+    "main.js.map": "/static/js/main.da9b1281.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d6051940.js",
     "runtime-main.js.map": "/static/js/runtime-main.d6051940.js.map",
-    "static/js/2.befdc787.chunk.js": "/static/js/2.befdc787.chunk.js",
-    "static/js/2.befdc787.chunk.js.map": "/static/js/2.befdc787.chunk.js.map",
+    "static/js/2.49a6ed39.chunk.js": "/static/js/2.49a6ed39.chunk.js",
+    "static/js/2.49a6ed39.chunk.js.map": "/static/js/2.49a6ed39.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e66c42645b6c3481506cd2cbd1c52252.js": "/precache-manifest.e66c42645b6c3481506cd2cbd1c52252.js",
+    "precache-manifest.29fcaf4ad2412677a66a4702b5cecd19.js": "/precache-manifest.29fcaf4ad2412677a66a4702b5cecd19.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.76cceaea.chunk.css.map": "/static/css/main.76cceaea.chunk.css.map",
-    "static/js/2.befdc787.chunk.js.LICENSE": "/static/js/2.befdc787.chunk.js.LICENSE",
+    "static/js/2.49a6ed39.chunk.js.LICENSE": "/static/js/2.49a6ed39.chunk.js.LICENSE",
     "static/media/EmojiTetris.png": "/static/media/EmojiTetris.e9c9c9e8.png",
     "static/media/PatternOverlay.png": "/static/media/PatternOverlay.56ccea28.png",
     "static/media/R.png": "/static/media/R.03720c4b.png",
+    "static/media/Shelfspot.png": "/static/media/Shelfspot.d0a2c404.png",
     "static/media/Vocarta.png": "/static/media/Vocarta.a36cb08f.png",
     "static/media/berkeley.png": "/static/media/berkeley.1dcf6b68.png",
     "static/media/css.png": "/static/media/css.b3f09307.png",
-    "static/media/icecream.png": "/static/media/icecream.3d228c0c.png",
+    "static/media/profilepic.png": "/static/media/profilepic.b018ffe8.png",
     "static/media/react.png": "/static/media/react.29d0f9c2.png",
     "static/media/redux.png": "/static/media/redux.96dff9b9.png",
-    "static/media/resume_matthew_clagett.pdf": "/static/media/resume_matthew_clagett.e0284703.pdf"
+    "static/media/resume_matthew_clagett.pdf": "/static/media/resume_matthew_clagett.e0284703.pdf",
+    "static/media/sproulclub.png": "/static/media/sproulclub.82bf1c46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d6051940.js",
-    "static/js/2.befdc787.chunk.js",
+    "static/js/2.49a6ed39.chunk.js",
     "static/css/main.76cceaea.chunk.css",
-    "static/js/main.80b3bd4c.chunk.js"
+    "static/js/main.da9b1281.chunk.js"
   ]
 }

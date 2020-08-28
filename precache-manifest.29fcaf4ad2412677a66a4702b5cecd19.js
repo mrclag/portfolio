@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6df48d6d2f3339767f81ccb9a3f3389a",
+    "revision": "1483b6fb86c89547e645c255c5471436",
     "url": "/index.html"
   },
   {
-    "revision": "d0d6028afb4e421c7ec5",
+    "revision": "c627c370738e1fff03a6",
     "url": "/static/css/main.76cceaea.chunk.css"
   },
   {
-    "revision": "933cb3e767ef449f3c55",
-    "url": "/static/js/2.befdc787.chunk.js"
+    "revision": "daa783353d5d7fbcd742",
+    "url": "/static/js/2.49a6ed39.chunk.js"
   },
   {
     "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
-    "url": "/static/js/2.befdc787.chunk.js.LICENSE"
+    "url": "/static/js/2.49a6ed39.chunk.js.LICENSE"
   },
   {
-    "revision": "d0d6028afb4e421c7ec5",
-    "url": "/static/js/main.80b3bd4c.chunk.js"
+    "revision": "c627c370738e1fff03a6",
+    "url": "/static/js/main.da9b1281.chunk.js"
   },
   {
     "revision": "5b038f259db629f91f35",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/R.03720c4b.png"
   },
   {
+    "revision": "d0a2c404d0c19b8df3991c777ae81ebb",
+    "url": "/static/media/Shelfspot.d0a2c404.png"
+  },
+  {
     "revision": "a36cb08f321a31155a58cd6e0cd1b5ed",
     "url": "/static/media/Vocarta.a36cb08f.png"
   },
@@ -48,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/css.b3f09307.png"
   },
   {
-    "revision": "3d228c0c68a96db3f5dc4a533c9e8e36",
-    "url": "/static/media/icecream.3d228c0c.png"
+    "revision": "b018ffe870d520451fe0b39394d1041a",
+    "url": "/static/media/profilepic.b018ffe8.png"
   },
   {
     "revision": "29d0f9c2378a5778c57cd7cdae69db5e",
@@ -62,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e0284703d6f9e2155afd19fbefa09656",
     "url": "/static/media/resume_matthew_clagett.e0284703.pdf"
+  },
+  {
+    "revision": "82bf1c46b591e1e2c7cb356f08d2953d",
+    "url": "/static/media/sproulclub.82bf1c46.png"
   }
 ]);
