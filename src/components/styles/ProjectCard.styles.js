@@ -25,11 +25,11 @@ export const Card = styled.div`
   }
   p {
     font-size: 1.1em;
-    margin-top: 10px;
   }
 
   }
-  #site-url {
+  .site-url {
+    margin-top: -5px;
     padding-bottom: 10px;
     color: #eee;
     font-size: 1em;
@@ -44,7 +44,6 @@ export const Card = styled.div`
 
   h2 {
     font-size: 20px;
-    margin-bottom: 3px;
     transition: all ease-in 100ms;
     text-transform: uppercase;
   }

@@ -18,12 +18,10 @@ export const CardWrapper = styled.div`
   text-align: left;
   flex-wrap: wrap;
   margin: auto;
-  width: 80vw;
-  max-width: 1300px;
+  max-width: 70vw;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
     max-width: unset;
-    width: unset;
   }
 `;

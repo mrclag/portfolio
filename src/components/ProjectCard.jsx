@@ -2,13 +2,33 @@ import React from 'react';
 import { Card, ProjectButtons } from '../styles/ProjectCard.styles';
 import ButtonLink from './ButtonLink';
 
-const PortfolioCard = ({ imageUrl, title, blurb, siteUrl, githubUrl }) => {
+const PortfolioCard = ({
+  imageUrl,
+  title,
+  blurb,
+  siteUrl,
+  githubUrl,
+  setShowModal,
+  setVideoId,
+  videoId,
+}) => {
+  const playVideo = (id) => {
+    setVideoId(videoId);
+    setShowModal(true);
+  };
+
   return (
     <Card>
-      <img src={imageUrl} alt="project card" />
+      <img
+        src={imageUrl}
+        alt="project card"
+        onClick={() => playVideo(videoId)}
+      />
       <div className="card-body">
         <h2>{title}</h2>
-        <div className="site-url">{siteUrl.slice(8)}</div>
+        <a href={siteUrl} target="__blank" id="site-url">
+          {siteUrl.slice(8)}
+        </a>
         <p>{blurb}</p>
       </div>
       <ProjectButtons>
