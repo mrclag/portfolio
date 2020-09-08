@@ -22,7 +22,7 @@ const Landing = () => {
           <img
             src={profilePic}
             alt=""
-            style={{ border: '1px solid #375c93', borderRadius: '50%' }}
+            style={{ border: '1.5px solid white', borderRadius: '50%' }}
           />
           <br />
           <br />

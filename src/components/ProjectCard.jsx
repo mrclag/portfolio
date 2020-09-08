@@ -21,6 +21,7 @@ const PortfolioCard = ({
     <Card>
       <img
         src={imageUrl}
+        style={{ cursor: 'pointer' }}
         alt="project card"
         onClick={() => playVideo(videoId)}
       />

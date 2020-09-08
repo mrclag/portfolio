@@ -33,31 +33,31 @@ const Projects = () => {
           imageUrl={sproulclub}
           title="sproul.club"
           siteUrl="https://sproul.club"
-          githubUrl="https://github.com/mrclag/vocarta"
-          blurb="Catalog for UC Berkeley student organizations, used by over 500 clubs. Built with Flask, React.js, Redux.js."
+          githubUrl="https://github.com/sproul-club/clubwebsite"
+          blurb="Catalog for UC Berkeley student organizations, used by over 200 clubs. Built with Flask, React.js, Redux, MongoDB."
           setShowModal={setShowModal}
           setVideoId={setVideoId}
-          videoId="2g811Eo7K8U"
+          videoId="Hxrdwvqc35A"
         />
         <ProjectCard
           imageUrl={shelfspot}
           title="ShelfSpot"
           siteUrl="https://shelfspot.herokuapp.com"
-          githubUrl="https://github.com/mrclag/vocarta"
+          githubUrl="https://github.com/mrclag/shelfspot"
           blurb="Digital Bookcase. Organize, summarize, and share your books. Built using React.js, Redux, Node.js, Google Books API, JWT."
           setShowModal={setShowModal}
           setVideoId={setVideoId}
-          videoId="2g811Eo7K8U"
+          videoId="jZPUBRMqrfQ"
         />
         <ProjectCard
           imageUrl={vocarta}
           title="Vocarta"
           siteUrl="https://vocarta.com"
-          githubUrl=""
+          githubUrl="https://github.com/mrclag/vocarta"
           blurb="Search and create flashcards for relevant vocabulary and songs in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
           setShowModal={setShowModal}
           setVideoId={setVideoId}
-          videoId="2g811Eo7K8U"
+          videoId="7CkhpNriTf4"
         />
         <ProjectCard
           imageUrl={emojitetris}
@@ -67,7 +67,7 @@ const Projects = () => {
           blurb="Recreation of a classic block puzzle game, with a few twists. Build with React.js Hooks, and includes high score component using Firebase. Responsive / PWA optimized."
           setShowModal={setShowModal}
           setVideoId={setVideoId}
-          videoId="2g811Eo7K8U"
+          videoId="Q4vaGVIDdSc"
         />
         <ProjectCard
           imageUrl={patternoverlay}
@@ -77,7 +77,7 @@ const Projects = () => {
           blurb="Based on youtube video 'Freaky Dot Patterns', this tool shows unexpected patterns that emerge when moving overlayed patterns. Build with React.js, mobile friendly."
           setShowModal={setShowModal}
           setVideoId={setVideoId}
-          videoId="2g811Eo7K8U"
+          videoId="8qnJ3KM82-k"
         />
       </CardWrapper>
       <Modal showModal={showModal} setShowModal={setShowModal}>
