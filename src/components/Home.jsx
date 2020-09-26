@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Element, Events } from 'react-scroll';
-// import { animateScroll as scroll} from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll';
 
-// import { Button } from '../styles/global-styles';
+import { Button } from '../styles/global-styles';
 
 import Navbar from './Navbar';
 import Landing from './sections/Landing';
@@ -22,9 +22,9 @@ const Home = () => {
     };
   });
 
-  // const scrollToTop = () => {
-  //   scroll.scrollToTop();
-  // };
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
     <div>
@@ -48,15 +48,16 @@ const Home = () => {
         <Blogs />
       </Element> */}
 
-      {/* <div
+      <div
         style={{
-          borderTop: '1px solid black',
           display: 'flex',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          background: '#adbece',
+          padding: '10px',
         }}
       >
         <Button onClick={() => scrollToTop()}>Return to Top</Button>
-      </div> */}
+      </div>
     </div>
   );
 };
