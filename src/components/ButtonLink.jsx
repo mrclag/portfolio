@@ -21,12 +21,12 @@ const Wrapper = styled.div`
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 2px solid #d8e2dc;
+  border: 2px solid #8f8f8f;
   float: left;
   transition: all 0.5s ease;
 
   .fa {
-    color: #d8e2dc;
+    color: #8f8f8f;
     margin-top: 9px;
     transition: all 0.5s ease;
   }

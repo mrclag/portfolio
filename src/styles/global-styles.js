@@ -13,7 +13,7 @@ export const Button = styled.button`
 `;
 
 export const GlobalStyles = styled.div`
-  font-family: 'Jura', sans-serif;
+  font-family: 'Roboto', sans-serif;
 `;
 
 export const SectionTitle = styled.div`

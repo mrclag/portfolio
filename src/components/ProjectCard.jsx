@@ -19,12 +19,19 @@ const PortfolioCard = ({
 
   return (
     <Card>
-      <img
-        src={imageUrl}
-        style={{ cursor: 'pointer' }}
-        alt="project card"
-        onClick={() => playVideo(videoId)}
-      />
+      <div class="container">
+        <img
+          src={imageUrl}
+          style={{ cursor: 'pointer' }}
+          alt="project card"
+          onClick={() => playVideo(videoId)}
+        />
+        <div class="overlay">
+          <a href="#" class="icon" title="User Profile">
+            <i class="fa fa-play"></i>
+          </a>
+        </div>
+      </div>
       <div className="card-body">
         <h2>{title}</h2>
         <a href={siteUrl} target="__blank" id="site-url">
