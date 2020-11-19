@@ -45,7 +45,7 @@ const Projects = () => {
         <ProjectCard
           imageUrl={shelfspot}
           title="Shelfspot"
-          siteUrl="https://shelfspot.herokuapp.com"
+          siteUrl="https://shelfspotapp.com"
           githubUrl="https://github.com/mrclag/shelfspot"
           blurb={p2Shelfspot}
           setShowModal={setShowModal}
