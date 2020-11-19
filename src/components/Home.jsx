@@ -39,7 +39,6 @@ const Home = () => {
       <Element name="test2">
         <About />
       </Element>
-
       <Element name="test3">
         <Projects />
       </Element>
@@ -52,8 +51,9 @@ const Home = () => {
         style={{
           display: 'flex',
           justifyContent: 'center',
-          background: '#adbece',
+          background: '#cbd1d6',
           padding: '10px',
+          marginTop: '20px'
         }}
       >
         <Button onClick={() => scrollToTop()}>Return to Top</Button>

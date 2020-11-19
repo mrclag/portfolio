@@ -29,7 +29,7 @@ const Projects = () => {
 
   return (
     <ProjectsWrapper>
-      <SectionTitle style={{ color: '#333333' }}>Projects</SectionTitle>
+      <SectionTitle style={{ color: '#333333' }}>Check out some of my projects</SectionTitle>
       <br />
       <CardWrapper>
         <ProjectCard

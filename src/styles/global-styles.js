@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  background-color: ${(props) => props.backgroundColor};
+  background-color: white;
   color: ${(props) => props.color};
   border-radius: 15px;
-  height: 50px;
+  height: 40px;
   width: auto;
   font-size: 14px;
   padding: 10px;
   border: none;
-  margin-top: 15px;
   /* give same hover styling to this button as others have */
 `;
 
@@ -18,7 +17,7 @@ export const GlobalStyles = styled.div`
 `;
 
 export const SectionTitle = styled.div`
-  font-size: 42px;
+  font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;

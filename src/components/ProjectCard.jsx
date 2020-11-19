@@ -33,10 +33,13 @@ const PortfolioCard = ({
         </div>
       </div>
       <div className="card-body">
+        <a href={siteUrl} target="__blank">
+
         <h2>{title}</h2>
-        <a href={siteUrl} target="__blank" id="site-url">
-          {siteUrl.slice(8)}
         </a>
+        {/* <a href={siteUrl} target="__blank" id="site-url">
+          {siteUrl.slice(8)}
+        </a> */}
         <p>{blurb}</p>
       </div>
       <ProjectButtons>

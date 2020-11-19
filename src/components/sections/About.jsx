@@ -1,5 +1,4 @@
 import React from 'react';
-import { AboutWrapper } from '../../styles/About.styles';
 import styled from 'styled-components';
 
 import css from '../../images/icons/css.png';
@@ -20,14 +19,10 @@ import helpinghand from '../../images/icons/helpinghand.png';
 import optimism from '../../images/icons/optimism.png';
 import berkeley from '../../images/icons/berkeley.png';
 
-import { SectionTitle } from '../../styles/global-styles';
-
 const About = () => {
   return (
-    <AboutWrapper>
-      <SectionTitle>About</SectionTitle>
       <AboutContentWrapper>
-        <AboutText>
+        <div className='about-content'>
           <div className="section">
             <div className="section-title">Education</div>
             <div className="education">
@@ -130,31 +125,58 @@ const About = () => {
             I am looking for a role as a Software Engineer. Please download my resume, check out my projects, and contact
             me if you are interested in working together.
           </p> */}
-        </AboutText>
+        </div>
       </AboutContentWrapper>
-    </AboutWrapper>
   );
 };
 
 export default About;
 
 const AboutContentWrapper = styled.div`
+  padding-top: calc(14vh - 50px);
+  background-color: #fcfcfd;;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  text-align: left;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
     height: 100%;
+    padding-top: calc(12vh - 50px);
   }
+
+  .about-content {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    font-size: 1.3em;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ddd;
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 1100px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   .section {
     margin-bottom: 40px;
+    width: 450px;
     .section-title {
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 10px;
       font-style: underline;
+    }
+    @media screen and (max-width: 500px) {
+      
+      width: 95vw;
     }
   }
 
@@ -221,20 +243,3 @@ const AboutContentWrapper = styled.div`
   }
 `;
 
-const AboutText = styled.div`
-  width: 450px;
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.3em;
-  p {
-    margin-bottom: 15px;
-  }
-
-  margin: 0px 20px 0px;
-  @media screen and (max-width: 900px) {
-    width: 100%;
-    font-size: 1em;
-    margin: 0px 0px 40px;
-  }
-`;

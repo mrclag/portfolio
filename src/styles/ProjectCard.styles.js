@@ -92,7 +92,8 @@ export const Card = styled.div`
 }
 
   h2 {
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 30px;
     color: darkslateblue;
     margin-bottom: 3px;
     transition: all ease-in 100ms;
