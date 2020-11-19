@@ -51,9 +51,9 @@ const Home = () => {
         style={{
           display: 'flex',
           justifyContent: 'center',
-          background: '#cbd1d6',
+          background: '#fcfcfd',
           padding: '10px',
-          marginTop: '20px'
+          paddingTop: '20px'
         }}
       >
         <Button onClick={() => scrollToTop()}>Return to Top</Button>

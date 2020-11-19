@@ -8,8 +8,12 @@ export const Button = styled.button`
   width: auto;
   font-size: 14px;
   padding: 10px;
-  border: none;
+  border: 1px solid lightgray;
   /* give same hover styling to this button as others have */
+
+  &:hover {
+    background-color: #f7f7fa;
+  }
 `;
 
 export const GlobalStyles = styled.div`

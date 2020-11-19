@@ -151,9 +151,10 @@ const AboutContentWrapper = styled.div`
     flex-direction: row;
     width: 80vw;
     font-size: 1.3em;
-    margin: 0 auto;
+    margin: auto;
     padding-bottom: 80px;
     border-bottom: 1px solid #ddd;
+    justify-content: space-around;
 
     p {
       margin-bottom: 15px;
