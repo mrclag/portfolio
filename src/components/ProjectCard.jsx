@@ -19,15 +19,15 @@ const PortfolioCard = ({
 
   return (
     <Card>
-      <div class="container">
+      <div class="container"
+            style={{ cursor: 'pointer' }}
+          onClick={() => playVideo(videoId)}>
         <img
           src={imageUrl}
-          style={{ cursor: 'pointer' }}
           alt="project card"
-          onClick={() => playVideo(videoId)}
         />
         <div class="overlay">
-          <a href="#" class="icon" title="User Profile">
+          <a class="icon" title="User Profile">
             <i class="fa fa-play"></i>
           </a>
         </div>

@@ -56,7 +56,7 @@ const Home = () => {
           padding: '10px',
         }}
       >
-        <button class='returnButton' onClick={() => scrollToTop()}>Return to Top</button>
+        <Button onClick={() => scrollToTop()}>Return to Top</Button>
       </div>
     </div>
   );

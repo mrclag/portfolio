@@ -22,7 +22,7 @@ const Landing = () => {
           <img
             src={profilePic}
             alt=""
-            style={{ border: '1.5px solid white', borderRadius: '50%' }}
+            style={{ border: '1px solid white', borderRadius: '50%' }}
           />
           <br />
           <br />
@@ -32,17 +32,19 @@ const Landing = () => {
           May 2019 UC Berkeley Graduate.
           <br />
           <br />
-          Ironman Competitor
+          Ironman Triathlete
         </Bio>
         <SocialLinks>
-          <ButtonLink link="https://www.github.com/mrclag" icon="github" />
+          <ButtonLink link="https://www.github.com/mrclag" icon="github" color='white'/>
           <ButtonLink
             link="https://www.instagram.com/mrclagett"
             icon="instagram"
+            color='white'
           />
           <ButtonLink
             link="https://www.linkedin.com/in/matthewclagett"
             icon="linkedin"
+            color='white'
           />
         </SocialLinks>
       </Wrapper>

@@ -8,7 +8,8 @@ export const Button = styled.button`
   width: auto;
   font-size: 14px;
   padding: 10px;
-  /* border: none; */
+  border: none;
+  margin-top: 15px;
   /* give same hover styling to this button as others have */
 `;
 

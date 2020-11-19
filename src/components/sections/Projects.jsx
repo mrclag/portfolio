@@ -12,6 +12,9 @@ import sproulclub from '../../images/sproulclub.png';
 import { ProjectsWrapper, CardWrapper } from '../../styles/Projects.styles';
 import { SectionTitle } from '../../styles/global-styles';
 
+import { p1Sproul, p2Shelfspot, p3Vocarta, p4Emojimino, p5PatternOverlay } from './projectData'
+
+
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
   const [videoId, setVideoId] = useState('2g811Eo7K8U');
@@ -34,17 +37,17 @@ const Projects = () => {
           title="sproul.club"
           siteUrl="https://sproul.club"
           githubUrl="https://github.com/sproul-club/clubwebsite"
-          blurb="Catalog for UC Berkeley student organizations, used by over 200 clubs. Built with Flask, React.js, Redux, MongoDB."
+          blurb={p1Sproul}
           setShowModal={setShowModal}
           setVideoId={setVideoId}
           videoId="Hxrdwvqc35A"
         />
         <ProjectCard
           imageUrl={shelfspot}
-          title="ShelfSpot"
+          title="Shelfspot"
           siteUrl="https://shelfspot.herokuapp.com"
           githubUrl="https://github.com/mrclag/shelfspot"
-          blurb="Digital Bookcase. Organize, summarize, and share your books. Built using React.js, Redux, Node.js, Google Books API, JWT."
+          blurb={p2Shelfspot}
           setShowModal={setShowModal}
           setVideoId={setVideoId}
           videoId="jZPUBRMqrfQ"
@@ -54,7 +57,7 @@ const Projects = () => {
           title="Vocarta"
           siteUrl="https://vocarta.com"
           githubUrl="https://github.com/mrclag/vocarta"
-          blurb="Search and create flashcards for relevant vocabulary and songs in a new language. Created using React.js, Redux, Firebase, Google Translate API, Wikipedia API, Words API."
+          blurb={p3Vocarta}
           setShowModal={setShowModal}
           setVideoId={setVideoId}
           videoId="7CkhpNriTf4"
@@ -64,7 +67,7 @@ const Projects = () => {
           title="Emojimino"
           siteUrl="https://emojimino.com"
           githubUrl="https://github.com/mrclag/Emoji-Tetris"
-          blurb="Recreation of a classic block puzzle game, with a few twists. Build with React.js Hooks, and includes high score component using Firebase. Responsive / PWA optimized."
+          blurb={p4Emojimino}
           setShowModal={setShowModal}
           setVideoId={setVideoId}
           videoId="Q4vaGVIDdSc"
@@ -74,7 +77,7 @@ const Projects = () => {
           title="Pattern Overlay"
           siteUrl="https://patternoverlay.com"
           githubUrl="https://github.com/mrclag/freakydotpatterns"
-          blurb="Based on youtube video 'Freaky Dot Patterns', this tool shows unexpected patterns that emerge when moving overlayed patterns. Build with React.js, mobile friendly."
+          blurb={p5PatternOverlay}
           setShowModal={setShowModal}
           setVideoId={setVideoId}
           videoId="8qnJ3KM82-k"

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Card = styled.div`
   position: relative;
   width: 350px;
-  height: 400px;
+  height: 450px;
   color: black;
   margin: 10px;
   /* background: linear-gradient(45deg, #333333 0%, #375c93 50%); */
@@ -34,25 +34,26 @@ export const Card = styled.div`
   }
   #site-url {
     padding-bottom: 10px;
-    color: black;
+    color: cornflowerblue;
     font-size: 1em;
     /* font-style: italic; */
   }
 
   img {
-    width: 100%;
+    width: 350px;
     height: 200px;
     object-fit: cover;
+    transform: translateX(-15px);
   }
-  .container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-.image {
-  width: 100%;
-  height: auto;
-}
+    .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
@@ -91,10 +92,11 @@ export const Card = styled.div`
 }
 
   h2 {
-    font-size: 20px;
+    font-size: 22px;
+    color: darkslateblue;
     margin-bottom: 3px;
     transition: all ease-in 100ms;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   @media screen and (max-width: 800px) {
@@ -104,7 +106,7 @@ export const Card = styled.div`
 
 export const ProjectButtons = styled.div`
   position: absolute;
-  top: 52%;
+  top: 46%;
   right: 5px;
   justify-content: center;
 `;

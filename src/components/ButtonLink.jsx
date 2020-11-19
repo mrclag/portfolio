@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ButtonLink = ({ link, icon }) => {
+const ButtonLink = ({ link, icon, color }) => {
   return (
-    <Wrapper>
+    <Wrapper color={color}>
       <a href={link} target="_blank" rel="noreferrer noopener">
         <i className={`fa fa-${icon} fa-2x`} aria-hidden="true"></i>
       </a>
@@ -14,20 +14,20 @@ const ButtonLink = ({ link, icon }) => {
 export default ButtonLink;
 
 const Wrapper = styled.div`
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   margin: 5px 5px;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 2px solid #8f8f8f;
+  border: 2px solid ${(props)=> props.color === 'white' ? 'white' : "#8f8f8f"};
   float: left;
   transition: all 0.5s ease;
 
   .fa {
-    color: #8f8f8f;
-    margin-top: 9px;
+    color:${(props)=> props.color === 'white' ? 'white' : "#8f8f8f"};
+    margin-top: 3px;
     transition: all 0.5s ease;
   }
   &:hover {
