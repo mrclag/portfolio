@@ -31,8 +31,6 @@ const Landing = () => {
           <br />
           May 2019 UC Berkeley Graduate.
           <br />
-          <br />
-          Ironman Triathlete
         </Bio>
         <SocialLinks>
           <ButtonLink link="https://www.github.com/mrclag" icon="github" color='white'/>
